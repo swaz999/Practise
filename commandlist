@@ -1,0 +1,31 @@
+cd : changes directoty
+ls : list files in the directory
+	-l : gives long list of files
+	-t: gives a sorted list modified by time
+	-r: reverse sorting order.
+	-u:gives list sorted by name
+	-a: also shows hidden files (file names that start with .)
+mkdir : make directory.
+less: Can view a text file content
+file : determine type of file.
+cp : copy files and directories
+	-u : copies all files to a new destination but only if they do not exist in the destination.
+cp file... directory : copy multiple files to ad ifferent directory
+mv : moves or renames files and directories
+	mv file... dierectory : move files to a different directory.
+rm : removes files and directories
+	-r : removes files with all of their content.
+type : display info abpout command type
+which : to determine exact location of file
+--help : description of commands supported syntax and options
+man : formal documentation
+> :	to redirect standard output to  FILE
+eg: ls > file1
+>> : new results will be appended to existinf file
+< : To redirect standard input from a file instead of keyboard
+< > :	
+| :standard output of one command is fed into standard input of another.
+sort : sorts standars input and displays result on standard output
+uniq : removes duplicate lines of data
+tr : translates characters from one type to another 
+	
